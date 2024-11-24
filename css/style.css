@@ -1,0 +1,122 @@
+*{
+    color: #1C133D;
+    letter-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../images/hero-back.jpg');
+}
+
+.hero-content h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-content p{
+    color: white;
+}
+
+.hero-content .slogan{
+    color: #ccc;
+}
+
+
+.cta-btn{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #FE5B00;
+}
+
+.tags-wrap{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.tag{
+    color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag .fa{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: #D9D9D9;
+}
+
+.heading{
+    width: 100%;
+}
+
+.heading h1{
+    font-size: 26px;
+}
+
+.heading .underline{
+    width: 40%;
+    border-bottom: 3px solid #FE5B00;
+}
+
+.about-cards-wrap {
+    position: relative;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+.about-card {
+    position: relative;
+    overflow: visible; /* Allow the article to overflow outside the card */
+    border-radius: 10px; /* Rounded corners for the entire card */
+}
+
+.about-card img {
+    width: 100%;
+    display: block; /* Ensures no unwanted gaps below the image */
+    border-radius: 10px;
+}
+
+.about-card article {
+    position: absolute; /* Float the article outside the card */
+    bottom: -50%; /* Move it outside the card by 40% */
+    width: 90%; /* Adjust article width */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Align with the center */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(254, 91, 0, 0.9); /* Semi-transparent background */
+    z-index: 9;
+}
+
+.about-card p{
+    color: white;
+}
+
+.about-card2{
+    margin-top: 130px;
+}
+
+
