@@ -8,6 +8,7 @@ a{
     text-decoration: none;
 }
 
+
 .hero-section{
     width: 100%;
     height: 500px;
@@ -80,7 +81,7 @@ a{
     border-bottom: 3px solid #FE5B00;
 }
 
-.about{
+section{
     padding: 70px 10px;
 }
 
@@ -124,8 +125,20 @@ a{
     color: white;
 }
 
+.service-items-wrap{
+    display: grid;
+    grid-gap: 20px;
+}
 
+.service-item{
+    width: 90%;
+}
 
+.service-item img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 
 /* Style for scroll animation */
 .scroll-animation {
@@ -139,7 +152,7 @@ a{
     transform: translateY(0);
   }
 
-  
+
 
 /* Media query for devices with a minimum width of 768px */
 @media (min-width: 768px) {
@@ -150,6 +163,10 @@ a{
 
     .about-card-2{
         margin-top: 0;
+    }
+
+    .service-items-wrap{
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }

@@ -1,3 +1,5 @@
+
+
 // Get all animation info items
 const animationItems = document.querySelectorAll('.scroll-animation');
 
