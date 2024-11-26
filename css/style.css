@@ -82,7 +82,7 @@ a{
 }
 
 section{
-    padding: 70px 10px;
+    padding: 80px 10px;
 }
 
 .about-cards-wrap {
@@ -169,6 +169,42 @@ section{
         grid-template-columns: repeat(2, 1fr);
     }
     
+}
+
+
+@media (min-width: 1200px){
+
+    .hero-content{
+        width: 70%;
+    }
+
+    .hero-content p{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .tags-wrap{
+        width: 70%;
+        margin: 60px auto;
+    }
+
+    .heading{
+        width: 450px;
+    }
+
+
+    .about-card{
+        height: 350px;
+    }
+
+    .about-card article {
+        margin: 240px auto -100px auto;
+    }
+
+    .service-items-wrap{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 
