@@ -8,6 +8,15 @@ a{
     text-decoration: none;
 }
 
+body{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../images/tech-back.png');
+
+}
+
 
 .hero-section{
     width: 100%;
@@ -129,6 +138,7 @@ section{
 .about-card p{
     color: white;
 }
+
 
 .service-items-wrap{
     display: grid;
