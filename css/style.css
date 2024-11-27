@@ -179,19 +179,103 @@ section{
 
 
 .footer{
-    margin-top: 40px;
-    width: 100%;
-    height: 550px;
+    padding: 80px auto;
+    margin-bottom: 20px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-image: url('../images/footer-back.jpg');
+}
+
+.footer-info{
+    width: 350px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .heading h2{
+    color: white;
 }
 
 .footer-text{
     color: #D9D9D9;
 }
+
+.contact-form{
+    width: 100%;
+}
+
+.contact-form label{
+    color: #898989;
+    margin-top: 10px;
+}
+
+.contact-form .text-field{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #898989;
+    background: inherit;
+    border-bottom: 2px solid #898989;
+}
+
+.contact-form .submit-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #0F2244;
+    border-radius: 10px;
+    background: #898989;
+}
+
+.footer .socials .fa, p{
+    margin: 10px;
+    font-size: 14px;
+    color: #898989;
+}
+
+.contact-info .fa{
+    color: #D9D9D9;
+    margin-right: 10px;
+}
+
+.location-map{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    font-size: 20px; 
+    background: #F97B2D; 
+  }
+  
+  #myBtn:hover {
+    background-color: #898989; /* Add a dark-grey background on hover */
+    transition: 0.5s;
+  }
+
 
 /* Style for scroll animation */
 .scroll-animation {
@@ -225,6 +309,10 @@ section{
     .products-wrap{
         grid-gap: 30px;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+     .footer-info{
+        width: 400px;
     }
     
 }
@@ -276,6 +364,21 @@ section{
         grid-gap: 40px;
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .footer-info{
+        width: 900px;
+        grid-column-gap: 100px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .submit-btn:hover{background: #F97B2D;}
+    .nav-link:hover{
+        color: #F97B2D;
+        transition: 0.5s;
+        
+    }
+    .socials .fa:hover, .fa-brands:hover{color: #F97B2D; transition: 0.5s;}
+
 }
 
 
