@@ -17,6 +17,23 @@ body{
 
 }
 
+.navbar{
+    position: relative;
+}
+
+.custom-nav{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    /* height: 90vh; */
+    /* background: #D9D9D9; */
+}
+
+.custom-nav .nav-link{
+    font-size: 18px;
+    color: #1C133D;
+    margin: 10px 0;
+}
 
 .hero-section{
     width: 100%;
@@ -96,7 +113,7 @@ body{
 }
 
 section{
-    padding: 80px 10px;
+    padding: 70px 10px;
 }
 
 .about-cards-wrap {
@@ -373,8 +390,17 @@ section{
     
 }
 
+@media(min-width: 1020px){
+    .custom-nav{
+        height: 50px;
+        padding: 0;
+    }
+}
+
 
 @media (min-width: 1200px){
+
+  
 
     .hero-section{
         height: 500px;

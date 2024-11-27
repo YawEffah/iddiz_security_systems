@@ -20,6 +20,21 @@ function topFunction() {
 }
 
 
+//when the user clikcs on a nav-link, collapse the navigation
+document.addEventListener("DOMContentLoaded", function () {
+  var navLinks = document.querySelectorAll(".nav-link");
+  var navbarToggler = document.querySelector(".navbar-toggler");
+  
+  navLinks.forEach(function (navLink) {
+      navLink.addEventListener("click", function () {
+          if (window.innerWidth < 992) {
+              navbarToggler.click(); 
+          }
+      });
+  });
+});
+
+
 // Get all animation info items
 const animationItems = document.querySelectorAll('.scroll-animation');
 
