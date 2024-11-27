@@ -177,18 +177,6 @@ section{
     color: #FE5B00;
 }
 
-
-.tag{
-    width: 220px;
-    padding: 7px 15px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 auto 50px auto;
-    background: #f1f1f1;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-}
-
 .review-section{
     width: 100%;
     display: grid;
