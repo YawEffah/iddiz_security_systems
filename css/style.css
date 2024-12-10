@@ -52,6 +52,10 @@ body{
     background-image: url('../images/hero-back.jpg');
 }
 
+.products-hero-section{
+    height: 300px;
+}
+
 .hero-content h1{
     color: white;
     font-size: 40px;
@@ -197,7 +201,7 @@ main p{
 }
 
 .main-products .heading{
-    margin: 0 0 40px 10px;
+    margin: 0 0 40px 0;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -384,6 +388,10 @@ main p{
 
 /* Media query for devices with a minimum width of 768px */
 @media (min-width: 768px) {
+    
+    .products-hero-section{
+        height: 300px;
+    }
 
     .about-cards-wrap{
         grid-template-columns: repeat(2, 1fr);
@@ -403,7 +411,7 @@ main p{
     }
 
     .main-products .heading{
-        margin: 0 0 40px 30px;
+        margin: 0 0 40px 0;
     }
 
      .footer-info{
@@ -424,6 +432,18 @@ main p{
 
     .hero-content{
         width: 70%;
+    }
+
+    .hero-section{
+        height: 100vh;
+    }
+    
+    .products-hero-section{
+        height: 350px;
+    }
+
+    .hero-content h1{
+        font-size: 60px;
     }
 
     .hero-content p{
@@ -464,7 +484,7 @@ main p{
     }
 
     .main-products .heading{
-        margin: 0 0 40px 40px;
+        margin: 0 0 40px 0;
     }
 
 
