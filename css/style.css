@@ -144,6 +144,74 @@ body{
     background: #D9D9D9;
 }
 
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    z-index: 8;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 14px;
+}
+
+.icon-bar .fa {
+    color: white;
+}
+
+.icon-bar a:hover {
+    transform: translateX(-5px);
+}
+
+/* Social media colors */
+.facebook {
+    background: #3b5998;
+    border-top-left-radius: 5px;
+}
+
+.twitter {
+    background: #55acee;
+}
+
+.instagram {
+    background: #e4405f;
+}
+
+.linkedin {
+    background: #007bb5;
+}
+
+.youtube {
+    background: #f04338;
+}
+
+.tiktok {
+    background: #000000;
+}
+
+.snapchat {
+    background: #fffc00;
+    color: black; /* For better contrast */
+}
+
+.snapchat .fa {
+    color: black;
+}
+
+.whatsapp {
+    background: #25d366;
+    border-bottom-left-radius: 5px;
+}
+
 .heading{
     width: 300px;
     margin: 0 auto 40px auto;
